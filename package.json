@@ -9,11 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "next": "15.3.3",
+    "@tailwindcss/postcss": "^4.1.7",
+    "@tailwindcss/vite": "^4.1.7",
+    "gsap": "^3.13.0",
+    "locomotive-scroll": "^5.0.0-beta.21",
+    "react-router-dom": "^7.6.2",
+    "remixicon": "^4.6.0",
+    "scrolltrigger": "^1.0.1"
   },
   "devDependencies": {
+    "@permaweb/aoconnect": "^0.0.63",
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4"
   }
