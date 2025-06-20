@@ -84,7 +84,6 @@ function Landing() {
 
     Promise.all(loadPromises).then(() => {
       setImagesLoaded(true);
-      console.log("all the images have been loaded")
     });
   }, []);
 
