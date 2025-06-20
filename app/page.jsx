@@ -26,6 +26,8 @@ function Landing() {
     console.log("clicked")
     window.location.href = "/game"
   };
+
+  console.log("edited")
   
   let [showContent, setShowContent] = useState(false);
   const [count, setCount] = useState(0);

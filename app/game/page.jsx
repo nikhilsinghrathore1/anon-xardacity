@@ -3,9 +3,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import {connectWallet , disconnectWallet , getWalletAddress , messageAR , dryrunResult} from "./arweaveUtils"
 
-
-
-
 const pId = "YOUR_PROCESS_ID"; // Replace with your actual Process ID
 
 // Tetris game constants
